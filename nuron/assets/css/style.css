@@ -509,7 +509,7 @@ ul.liststyle.bullet li + li {
   margin-top: 8px;
 }
 ul li {
-  font-size: var(--font-size-b1);
+  font-size: var(--font-size-b2);
   line-height: var(--line-height-b1);
   margin-top: 10px;
   margin-bottom: 10px;
@@ -16413,6 +16413,10 @@ figcaption {
 }
 .rn-about-card.transparent-bg {
   background: transparent;
+  border: 1px solid var(--color-border);
+  margin-top: 140px;
+}
+.rn-about-card.right {
   border: 1px solid var(--color-border);
   margin-top: 140px;
 }
