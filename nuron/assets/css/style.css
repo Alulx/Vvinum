@@ -20777,7 +20777,7 @@ body.count_bg--4 .countdown .countdown-container .countdown-value {
   border-radius: 5px;
 }
 .upload-variant-wrapper .variant-preview img {
-  border-radius: 5px;
+  border-radius: 50%;
   transition: var(--transition);
 }
 .upload-variant-wrapper .variant-preview img:hover {
