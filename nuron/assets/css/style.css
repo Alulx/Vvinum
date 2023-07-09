@@ -19016,7 +19016,7 @@ button .small-image {
 }
 .product-tab-wrapper .rn-pd-content .rn-pd-thumbnail {
   padding: 15px;
-  background: var(--background-color-1);
+  /* background: var(--background-color-1); */
   border-radius: 7px;
   border: 2px solid transparent;
 }
@@ -22427,6 +22427,12 @@ fieldset.checkbox-group {
 .newsletter-right {
   padding: 25px;
   background: var(--background-color-1);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  height: 100%;
+}
+
+.newsletter-trans:hover {
   border: 1px solid var(--color-border);
   border-radius: 6px;
   height: 100%;

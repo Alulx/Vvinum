@@ -396,156 +396,206 @@
     </div>
     <!-- ENd Header Area -->
 
-    <!-- start banner area -->
-    <div class="slide slide-style-14 slider-video-bg d-flex align-items-center justify-content-center" data-black-overlay="5">
 
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <div class="banner-xii-wrapper">
-                        <div class="banner-content-wrapper"  >
-                            <p class="pre-title">Vvinum</p>
-                            <h1  class="title"  style="font-family: WorkSans Black;">Zeitlose Weine </h1>
+<!-- create new product area -->
+<div class="create-area rn-section-gapTop">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-3 offset-1 ml_md--0 ml_sm--0">
+                <!-- file upload area -->
+                <div class="upload-area">
 
-                            <h1  class="title"  style="font-family: Worksans Black;">Zeitgemäßer Handel </h1>
+                    <div class="upload-formate mb--30">
+                        <h6 class="title">
+                            Datei hochladen
+                        </h6>
+                        <p class="formate">
+                            Ziehen Sie die Datei zum Hochladen hier rein oder wählen Sie sie aus                        </p>
+                    </div>
 
-                            <p class="post-title">Mithilfe einer Blockchainbasierten Handelsplattform auf Non-Fungible-Token Basis</p>
-                            <a class="btn btn-primary-alta btn-large" style="scroll-behavior: smooth;" href="#Gliederung">Explore</a>
-                            <div class="wallet-image-wrapper">
+                    <div class="brows-file-wrapper">
+                        <!-- actual upload which is hidden -->
+                        <input name="createinputfile" id="createinputfile" type="file" class="inputfile" />
+                        <img id="createfileImage" src="assets/images/portfolio/portfolio-05.jpg" alt="" data-black-overlay="6">
+                        <!-- our custom upload button -->
+                        <label for="createinputfile" title="No File Choosen">
+                            <i class="feather-upload"></i>
+                            <span class="text-center">Datei Wählen</span>
+                            <p class="text-center mt--10">PNG, GIF, WEBP, MP4 or MP3. <br>    Max 1Gb.</p>
+                        </label>
+                    </div>
+                </div>
+                <!-- end upoad file area -->
 
-                                <a  href="#" class="avatar" data-tooltip="Meta Mask"><img src="assets/images/icons/wallet/1.png" alt="wallet_image"></a>
+                <div class="mt--100 mt_sm--30 mt_md--30 d-none d-lg-block">
+                    <h5> Bemerkung: </h5>
+                    <span> Service-Gebühren : <strong>2.5%</strong> </span> <br>
+                    <span> Winzer-Royalty : <strong>5%</strong> </span> <br>
 
-                                <a href="#" class="avatar" data-tooltip="Coinbase"><img src="assets/images/icons/wallet/5.png" alt="wallet_image"></a>
+                </div>
+
+            </div>
+
+            <div class="col-lg-7">
+                <div class="form-wrapper-one">
+                    <form class="row" action="#">
+
+                        <div class="col-md-12">
+                            <div class="input-box pb--20">
+                                <label for="name" class="form-label">Produktname</label>
+                                <input id="name" placeholder="Egon Müller: Scharzhofberger Riesling Spätlese 2022 ">
                             </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="input-box pb--20">
+                                <label for="Discription" class="form-label">Beschreibung</label>
+                                <textarea id="Discription" rows="3" placeholder="Der Duft ist reich und generös, eine köstlich opulente Frucht mit zarter Exotik, Maracuja, Akazienhonig, eingekochte Mirabellen und Orangengelee."></textarea>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="input-box pb--20">
+                                <label for="dollerValue" class="form-label">Flaschenpreis in €</label>
+                                <input id="dollerValue" placeholder="265">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="input-box pb--20">
+                                <label for="Size" class="form-label">Flaschengröße in Liter</label>
+                                <input id="Size" placeholder="0,75">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="input-box pb--20">
+                                <label for="Propertie" class="form-label">Region</label>
+                                <input id="Propertie" placeholder="Saar">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="input-box pb--20">
+                                <label for="Propertie" class="form-label">Geschmack</label>
+                                <input id="Propertie" placeholder="edelsüß">
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <div class="input-box pb--20">
+                                <label for="Royality" class="form-label">Jahrgang</label>
+                                <input id="Royality" placeholder="2022">
+                            </div>
+                        </div>
+
+                        
+                        <div class="col-md-4">
+                            <div class="input-box pb--20">
+                                <label for="Royality" class="form-label">Rebsorte</label>
+                                <input id="Royality" placeholder="Riesling">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="input-box pb--20">
+                                <label for="Royality" class="form-label">Allergene</label>
+                                <input id="Royality" placeholder="enthält Sulfide">
+                            </div>
+                        </div>
+                        
+
+                        <div class="col-md-4">
+                            <div class="input-box pb--20">
+                                <label for="Royality" class="form-label">Qualitätsstufe</label>
+                                <input id="Royality" placeholder="Spätauslese">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="input-box pb--20">
+                                <label for="Royality" class="form-label">Anzahl von Flaschen</label>
+                                <input id="Royality" placeholder="23">
+                            </div>
+                        </div>
+
+                       
+
+                        <div class="col-md-12 col-xl-4">
+                            <div class="input-box">
+                                <button type="button" class="btn btn-primary-alta btn-large w-100" data-bs-toggle="modal" data-bs-target="#uploadModal">Vorschau</button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 col-xl-8 mt_lg--15 mt_md--15 mt_sm--15">
+                            <div class="input-box">
+                                <button  type="button" onclick="location.href='produkt.html'"class="btn btn-primary btn-large w-100">Wein minten</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="mt--100 mt_sm--30 mt_md--30 d-block d-lg-none">
+                <h5> Note: </h5>
+                <span> Service fee : <strong>2.5%</strong> </span> <br>
+                <span> You will receive : <strong>25.00 ETH $50,000</strong></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- create new product area -->
+
+
+<!-- Modal -->
+<div class="rn-popup-modal upload-modal-wrapper modal fade" id="uploadModal" tabindex="-1" aria-hidden="true">
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i data-feather="x"></i></button>
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content share-wrapper">
+            <div class="modal-body">
+                <div class="product-style-one no-overlay">
+                    <div class="card-thumbnail">
+                        <a href="product-details.html"><img src="assets/images/icons/2888-600x900-removebg-preview.png" alt="NFT_portfolio"></a>
+                    </div>
+                    <div class="product-share-wrapper">
+                        
+                        <div class="share-btn share-btn-activation dropdown">
+
+                            <div class="share-btn-setting dropdown-menu dropdown-menu-end">
+                                <button type="button" class="btn-setting-text share-text" data-bs-toggle="modal" data-bs-target="#shareModal">
+                                    Share
+                                </button>
+                                <button type="button" class="btn-setting-text report-text" data-bs-toggle="modal" data-bs-target="#reportModal">
+                                    Report
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <a href="product-details.html"><span class="product-name">Egon Müller: Scharzhofberger Riesling Spätlese 2022 
+                    </span></a>
+                    <div class="bid-react-area">
+                        <div class="last-bid"> 265€ ≈ 0.15ETH </div>
+                        <div class="react-area">
+                            <svg viewBox="0 0 17 16" fill="none" width="16" height="16" class="sc-bdnxRM sc-hKFxyN kBvkOu">
+                                <path d="M8.2112 14L12.1056 9.69231L14.1853 7.39185C15.2497 6.21455 15.3683 4.46116 14.4723 3.15121V3.15121C13.3207 1.46757 10.9637 1.15351 9.41139 2.47685L8.2112 3.5L6.95566 2.42966C5.40738 1.10976 3.06841 1.3603 1.83482 2.97819V2.97819C0.777858 4.36443 0.885104 6.31329 2.08779 7.57518L8.2112 14Z" stroke="currentColor" stroke-width="2"></path>
+                            </svg>
+                            <span class="number">322</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="video-background">
-            <span>
-                <video autoplay="true" loop="true" controls muted style="width: 100%;">
-                    <source src="assets/images/vedio/Rotwein1.mp4">
-                </video>
-            </span>
-        </div>
-
     </div>
-    <!-- End banner area -->
+</div>
 
 
+    <!-- About banner area End -->
 
 
-
-
-
-
-    <!-- Explore Style Carousel -->
-
-    <!-- Explore Style Carousel End-->
-
-
-
-    <!-- start category area -->
-    <div id="Gliederung" class="category-area pt--110 pt_md--70 pt_sm--50">
-        <div class="container">
-            <div class="row g-5">
-                <!-- start single category -->
-                <div class="col-lg-3 col-xl-2 col-md-4 col-sm-6" data-sal-delay="200" data-sal="slide-up" data-sal-duration="800">
-                    <a class="category-style-one" href="einführung.html">
-                        <i class="feather-home"></i>
-                        <span class="category-label">Einführung</span>
-                    </a>
-                </div>
-                <!-- end single category -->
-                <!-- start single category -->
-                <div class="col-lg-3 col-xl-2 col-md-4 col-sm-6" data-sal-delay="300" data-sal="slide-up" data-sal-duration="800">
-                    <a class="category-style-one" href="pain-points.html">
-                        <i class="feather-cloud-lightning"></i>
-                        <span class="category-label">Pain points</span>
-                    </a>
-                </div>
-                <!-- end single category -->
-                <!-- start single category -->
-                <div class="col-lg-3 col-xl-2 col-md-4 col-sm-6" data-sal-delay="400" data-sal="slide-up" data-sal-duration="800">
-                    <a class="category-style-one" href="lösung.html">
-                        <i class="feather-sun"></i>
-                        <span class="category-label">Lösung</span>
-                    </a>
-                </div>
-                <!-- end single category -->
-                <!-- start single category -->
-                <div class="col-lg-3 col-xl-2 col-md-4 col-sm-6" data-sal-delay="500" data-sal="slide-up" data-sal-duration="800">
-                    <a class="category-style-one" href="business-model.html">
-                        <i class="feather-dollar-sign"></i>
-                        <span class="category-label">Business Model</span>
-                    </a>
-                </div>
-                <!-- end single category -->
-                <!-- start single category -->
-                <div class="col-lg-3 col-xl-2 col-md-4 col-sm-6" data-sal-delay="600" data-sal="slide-up" data-sal-duration="800">
-                    <a class="category-style-one" href="#">
-                        <i class="feather-bar-chart"></i>
-                        <span class="category-label">Marktpotenzial</span>
-                    </a>
-                </div>
-                <!-- end single category -->
-                <!-- start single category -->
-                <div class="col-lg-3 col-xl-2 col-md-4 col-sm-6" data-sal-delay="700" data-sal="slide-up" data-sal-duration="800">
-                    <a class="category-style-one" href="#">
-                        <i class="feather-search"></i>
-                        <span class="category-label">Benchmarking</span>
-                    </a>
-                </div>
-                <!-- end single category -->
-                <div class="col-lg-3 col-xl-2 col-md-4 col-sm-6" data-sal-delay="700" data-sal="slide-up" data-sal-duration="800">
-                    <a class="category-style-one" href="#">
-                        <i class="feather-activity"></i>
-                        <span class="category-label">Markteintritt</span>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-xl-2 col-md-4 col-sm-6" data-sal-delay="700" data-sal="slide-up" data-sal-duration="800">
-                    <a class="category-style-one" href="#">
-                        <i class="feather-tag"></i>
-                        <span class="category-label">Finanzplan</span>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-xl-2 col-md-4 col-sm-6" data-sal-delay="700" data-sal="slide-up" data-sal-duration="800">
-                    <a class="category-style-one" href="#">
-                        <i class="feather-package"></i>
-                        <span class="category-label">Weitere Meilensteine</span>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-xl-2 col-md-4 col-sm-6" data-sal-delay="700" data-sal="slide-up" data-sal-duration="800">
-                    <a class="category-style-one" href="#">
-                        <i class="feather-users"></i>
-                        <span class="category-label">Team</span>
-                    </a>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-    <!-- end category area -->
-
-
-
-    
-
-   
-  
-    <!-- end product area -->
-    <!-- start nuron vedio area -->
-   
-    <!-- end nuron vedio area -->
-
-
-
-
-
-    
     <!-- Start Footer Area -->
     <div class="rn-footer-one rn-section-gapBottom bg-color--1 mt--100 mt_md--80 mt_sm--80">
        
